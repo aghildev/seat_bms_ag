@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Select Seat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav-item">
+        <div class="nav-item-container"><a href="#back" class="fa fa-angle-left back-logo"></a></div>
+        <div class="nav-item-container">
+          Gold <small>(U/A)</small><br>
+          <small class="mallname light-grey-text"> INOX: Korum Mall, Eastern Express Highway, Thane</small>
+        </div>
+        <div class="showmobile nav-item-container" style="text-overflow:ellipsis !important;font-size:10pt;overflow:hidden;white-space: nowrap;width:80%;"><b> INOX: Korum Mall, Eastern Express Highway, Thane</b></div>
+      </div>
+      <div class="right-nav-item">
+        <div class="nav-item-container small-text num-of-tickets pointer" style="margin-right:40px;">2 Tickets <span class="fa fa-angle-down"></span></div>
+        <div class="nav-item-container"><span class="fa fa-close pointer"></span></div>
+      </div>
+    </nav>
+    <header>
+      <div class="light-grey-text xsmall-text" id="ticket-date">Tomorrow, 30 Aug, 01:00 PM</div>
+      <button class="timing-select-button"> 09:45 AM</button>
+      <button class="timing-select-button active"> 01:00 PM</button>
+      <button class="timing-select-button"> 04:00 PM</button>
+      <button class="timing-select-button"> 07:15 PM</button>
+    </header>
+    <div class="content">
+      <div class="screen">Screen</div>
+      <div class="seats" id="seats-royal" seatrow="10" seatcol="18"></div>
+      <span class="light-grey-text" id="ticket-price">160</span><br><hr>
+    </div>
+  </body>
+</html>
